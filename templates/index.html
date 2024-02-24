@@ -57,13 +57,13 @@
   <body>
     <section>
         <div class="header fixed-top w-100">
-            <h1>Haystack RAG Implementation</h1>
+            <h1>Haystack RAG - Anton</h1>
         </div>
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 pe-4">
                     <div class="mb-4">
-                        <label for="question" class="form-label h4 mb-3">Enter your query</label>
+                        <label for="question" class="form-label h4 mb-3">> Query:</label>
                         <textarea class="form-control" id="question" rows="4"></textarea>
                     </div>
                     <div class="mb-5 text-end">
@@ -74,11 +74,11 @@
                 <div class="col-sm-6 ps-4">
                     <div id="answer-div">
                         <div class="mb-5">
-                            <label for="answer" class="form-label h4 mb-3">Answer</label>
+                            <label for="answer" class="form-label h4 mb-3">Response:</label>
                             <textarea class="form-control" id="answer" rows="4" readonly></textarea>
                         </div>
                         <div class="mb-5">
-                            <label for="relevant-docs" class="form-label h4 mb-3">Relevant Documents</label>
+                            <label for="relevant-docs" class="form-label h4 mb-3">References:</label>
                             <textarea class="form-control" id="relevant-docs" rows="10" readonly></textarea>
                         </div>
                     </div>                    
@@ -93,7 +93,7 @@
                 <div class="spinner-border text-light" style="width: 10rem; height: 10rem;" role="status">
                     <span class="visually-hidden">Loading...</span>
                 </div>
-                <h5 class="text-center text-white mt-5">Generating Answer...</h5>
+                <h5 class="text-center text-white mt-5">Generating Response...</h5>
             </div>
           </div>
         </div>
