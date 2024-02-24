@@ -1,10 +1,11 @@
 llama-cpp-python
 cached_property
-farm-haystack
+farm-haystack @ git+https://github.com/deepset-ai/haystack.git@v1.x
 fastapi
 uvicorn
-farm-haystack[weaviate]
+farm-haystack[weaviate] @ git+https://github.com/deepset-ai/haystack.git@v1.x
 pypdf
 torch
 sentence_transformers
 haystack-ai
+
